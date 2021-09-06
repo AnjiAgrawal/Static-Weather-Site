@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2db191977a.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="background">
+
+        <div class="col1">
+            <br><br>
+            <tr>
+                <div class="Searchbar">
+                    <td>
+                        <!-- <img src="search.png" width="15px"> -->
+                        <i class="fas fa-search" width="15px"></i>
+                    </td>
+                    <td>
+                        <b>Search for Places...</b>
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div class="BigIcon">
+                    <img src="BigIcon.jpeg" width="300px" class="Icon">
+                </div>
+            </tr>
+            <tr>
+                <div class="Temp">
+                    12°C
+                </div>
+            </tr>
+            <tr>
+                <h2 class="day"><b>Monday, <font color="grey">16:00</font></b></h2>
+            </tr>
+            <br><br>
+            <div class="Day">
+                <span><img src="Cloud.png" width="30px"></span> Mostly Cloudy
+                <br>
+                <img src="Rain.png" width="30px"> Rain - 30%
+            </div>
+            <br>
+            <div class="Place">
+                <img src="newyork.jpg" width="280px">
+            </div>
+
+
+        </div>
+        <div class="col2">
+
+            <table cellspacing="20px">
+                <tr class="Week">
+                    <h2>
+                        <td>
+                            <font color="grey">
+                                <nav>Today</nav>
+                            </font>
+                        </td>
+                        <td><b><u>Week</u></b></td>
+                    </h2>
+                    <td class="gap"></td>
+
+                    <td class="righttop">
+                        <span class="DCel"><b> °C </b> </span>
+                    </td>
+                    <td></td>
+                    <td>
+                        <span class="DFah"><b>  °F  </b></span>
+                    </td>
+                    <td></td>
+                    <td class="dp">
+                        <i class="fas fa-user"></i>
+                    </td>
+                </tr>
+
+            </table>
+
+            <table cellspacing="20">
+                <tr>
+
+                    <td class="Sunday"><br><b>Sun</b> <br><img src="Sunday.png" width="45px" class="DayImg"><br><b>15°</b>
+                        <font color="grey">-3°<br></font><br> </td>
+
+                    <td class="Monday"><br><b>Mon</b> <br><img src="Monday.png" width="45px" class="DayImg"><br><b>12°</b>
+                        <font color="grey">7°<br></font><br> </td>
+
+                    <td class="Tuesday"><br><b>Tue</b> <br><img src="Tuesday.png" width="45px" class="DayImg"><br><b>9°</b>
+                        <font color="grey">7°<br></font><br> </td>
+
+                    <td class="Wednesday"><br><b>Wed</b> <br><img src="Wednesday.png" width="45px" class="DayImg"><br><b>8°</b>
+                        <font color="grey">-1°<br></font><br> </td>
+
+                    <td class="Thursday"><br><b>Thu</b> <br><img src="Thursday.png" width="45px" class="DayImg"><br><b>5°</b>
+                        <font color="grey">-2°<br></font><br> </td>
+
+                    <td class="Friday"><br><b>Fri</b> <br><img src="Friday.png" width="45px" class="DayImg"><br><b>4°</b>
+                        <font color="grey">-4°<br></font><br> </td>
+
+                    <td class="Saturday"><br><b>Sat</b> <br><img src="Sunday.png" width="45px" class="DayImg"><br><b>3°</b>
+                        <font color="grey">-3°<br></font><br> </td>
+
+                </tr>
+            </table>
+            <br><br>
+            <div class="col2row2">
+                <tr>
+                    <td></td>
+                    <Span class="Highlights"><b>Today's Highlights</b></Span>
+                </tr>
+                <table cellpadding="5" cellspacing="10">
+                    <tr>
+                        <td class="UVIndex">
+                            <font color="grey">UV Index</font>
+                            <img src="uv.jpeg" img-align="centre" width="200px" class="DayImg"><br></td>
+                        <td class="Wind"><br>
+                            <font color="grey">Wind Status</font>
+                            <p id="wind1">7.70<span id="wind2">km/h</span></p>
+                            <p id="sub-visibility"><img src="place.png" width="15px"> WSW</p>
+                        </td>
+                        <br>
+                        <td class="Sunrise">
+                            <font color="grey">Sunrise & Sunset</font>
+                            <div class="sunrise__sunset d-flex align-items-center">
+                                <div class="sunrise__sunset__icon">
+                                    <!-- <i class="fa fa-arrow-up"></i> -->
+                                </div>
+                                <div class="sunrise__sunset__detail">
+                                    <p class="time" id="sunriseTime">
+                                        <i class="fas fa-arrow-circle-up"></i>
+                                        <b>   6:35 AM</b></p>
+                                    <p class="duration"> - 1m 40s</p>
+                                </div>
+                            </div>
+                            <div class="sunrise__sunset d-flex align-items-center">
+                                <div class="sunrise__sunset__icon">
+                                </div>
+                                <div class="sunrise__sunset__detail">
+                                    <p id="sunsetTime" class="time">
+                                        <i class="fas fa-arrow-circle-down"></i>
+                                        <b>   5:42 PM</b></p>
+                                    <p class="duration"> + 2m 20s</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Wind"><br>
+                            <font color="grey">Humidity</font>
+                            <p id="wind1">12<span id="wind2">%</span></p>
+                            <p id="sub-visibility">Normal <img src="dislike.png" width="18px"></p>
+                        </td>
+                        <td class="Wind"><br>
+                            <font color="grey">Visibility</font>
+                            <p id="wind1">7.70<span id="wind2">km/h</span></p>
+                            <p id="sub-visibility">Average <img src="dislike.png" width="18px"></p>
+                        </td>
+                        <td class="Wind"><br>
+                            <font color="grey">Air Quality</font>
+                            <p id="wind1">7.70<span id="wind2">km/h</span></p>
+                            <p id="sub-visibility">Unhealthy <img src="sad.png" width="18px"></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
