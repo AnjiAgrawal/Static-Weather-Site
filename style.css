@@ -1,0 +1,213 @@
+html {
+    background-color: darkgray;
+    font-family: sans-serif;
+}
+
+.background {
+    display: flex;
+    background-color: hsl(0, 19%, 92%);
+    border-radius: 50px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    width: 85%;
+}
+
+.Searchbar {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.col1 {
+    background-color: white;
+    width: 35%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+
+.Temp {
+    font-size: 90px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.C {
+    text-align: top;
+    font-size: 40px;
+}
+
+.day {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.Day {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.BigIcon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Place {
+    border-image: round;
+    border-bottom-left-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.col2 {
+    width: 85%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.Celcius {
+    text-align: right;
+}
+
+.gap {
+    background-color: hsl(0, 19%, 92%);
+    width: 500px;
+}
+
+.Week {
+    font-size: 20px;
+    text-align: ;
+}
+
+.Highlight {
+    font-size: ;
+}
+
+.h2 {
+    font-size: 30px;
+}
+
+.righttop {
+    text-align: right;
+}
+
+
+/*.DCel { 
+    text-align: right;
+    background-color: black;
+    background-position: center;
+    border-radius: 30px;
+    color: cornsilk;
+    width: 20px;
+    height: auto;
+    background-size: 20px;
+}
+.DFah { 
+    text-align: right;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    shape-margin: 20px;
+}*/
+
+.dp {
+    border-radius: 10px;
+}
+
+.col01 {
+    width: 9%;
+    background-color: white;
+}
+
+.col02 {
+    width: 9%;
+    background-color: white;
+}
+
+.Sunday,
+.Monday,
+.Tuesday,
+.Wednesday,
+.Thursday,
+.Friday,
+.Saturday {
+    width: 125px;
+    background-color: white;
+    border-radius: 10px;
+    height: 70px;
+    border-spacing: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.DayImg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Highlights {
+    font-size: 20px;
+}
+
+.UVIndex,
+.Wind,
+.Sunrise {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: auto;
+    padding-left: 30px;
+}
+
+#wind1 {
+    font-size: 50px;
+    color: 333866;
+    font-weight: 500;
+}
+
+#wind2 {
+    font-size: 20px;
+    color: 333866;
+    font-weight: normal;
+}
+
+.col2row2 {
+    text-align: left;
+}
+
+.sub-sunrise {
+    padding-left: 20px;
+    margin-bottom: 3px;
+}
+
+.box2-text {
+    font-size: 20px;
+    color: 333866;
+    font-weight: bold;
+}
+
+.up {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sub-visibility {
+    font-size: 15px;
+}
+
+.Sunrise {
+    text-align: left;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.duration {
+    text-align: center;
+    font-size: 15px;
+}
